@@ -34,7 +34,7 @@ parameter PROGRAMPATH = "../testcases/test.bin";
 
 //////////// counter declaration ////////////
 reg unsigned [31:0] Clock_Cycle_Counter= 32'h00000000;
-localparam [31:0] Clock_Cycle_Limit = 32'h00001388; // 5000
+localparam [31:0] Clock_Cycle_Limit = 32'h00001F40; // 8000
 
 //////////// Input signals declarations ////////////
 
